@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(75deg, #414141, #313131);
+}
+div {
+    background-image: linear-gradient(120deg, #616161, #8c8c8c);
+}
+.header {
+    height: 90px;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+.header h1 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    translate: -50% 35%;
+}
+.menuButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    border: #414141;
+    background-color: #1f1f1f;
+    color: wheat;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.menuButton hr {
+    border: none;
+    border-top: 5px solid burlywood;
+    border-radius: 2px;
+    position: relative;
+}
+.menuOverlay {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-image: none;
+    background-color: black;
+    opacity: 75%;
+    top: 100px;
+    left: -400px;
+}
+
+.menuOverlay > * {
+    margin-left: 10px;
+}

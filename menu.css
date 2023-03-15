@@ -1,0 +1,261 @@
+.menuButtonLineCenterHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineCenterHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menuButtonLineCenterUnHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineCenterUnHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menuButtonLineCenterHover {
+    from {
+        opacity: 100%;
+        rotate: 0deg;
+    } to {
+        opacity: 50%;
+        rotate: 180deg;
+    }
+}
+@keyframes menuButtonLineCenterUnHover {
+    from {
+        opacity: 50%;
+        rotate: 180deg;
+    } to {
+        opacity: 100%;
+        rotate: 0deg;
+    }
+}
+
+.menuButtonLineTopHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineTopHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+.menuButtonLineTopUnHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineTopUnHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+
+@keyframes menuButtonLineTopHover {
+    from {
+        rotate: 0deg;
+        opacity: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    to {
+        top: -4px;
+        left: 6px;
+        rotate: 30deg;
+        opacity: 25%;
+    }
+}
+@keyframes menuButtonLineTopUnHover {
+    from {
+        top: -4px;
+        left: 6px;
+        rotate: 30deg;
+        opacity: 25%;
+    }
+    to {
+        rotate: 0deg;
+        opacity: 100%;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.menuButtonLineBottomHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineBottomHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+.menuButtonLineBottomUnHover {
+    animation-duration: 1s;
+    animation-name: menuButtonLineBottomUnHover;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+
+@keyframes menuButtonLineBottomHover {
+    from {
+        rotate: 0deg;
+        opacity: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    to {
+        top: 4px;
+        left: 6px;
+        rotate: -30deg;
+        opacity: 25%;
+    }
+}
+@keyframes menuButtonLineBottomUnHover {
+    to {
+        rotate: 0deg;
+        opacity: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    from {
+        top: 4px;
+        left: 6px;
+        rotate: -30deg;
+        opacity: 25%;
+    }
+}
+
+.menuButtonLineCenterClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineCenterClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menuButtonLineCenterUnClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineCenterUnClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes menuButtonLineCenterClick {
+    from {
+        opacity: 50%;
+        rotate: 0deg;
+    }
+    to {
+        opacity: 0%;
+        rotate: 180deg;
+    }
+}
+@keyframes menuButtonLineCenterUnClick {
+    from {
+        opacity: 0%;
+        rotate: 180deg;
+    }
+    to {
+        opacity: 50%;
+        rotate: 0deg;
+    }
+}
+
+.menuButtonLineTopClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineTopClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+.menuButtonLineTopUnClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineTopUnClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+
+@keyframes menuButtonLineTopClick {
+    from {
+        rotate: 30deg;
+        opacity: 25%;
+        top: -4px;
+        left: 6px;
+    }
+    to {
+        rotate: 45deg;
+        top: -4px;
+        left: 6px;
+        opacity: 100%;
+    }
+}
+@keyframes menuButtonLineTopUnClick {
+    to {
+        rotate: 30deg;
+        opacity: 25%;
+        top: -4px;
+        left: 6px;
+    }
+    from {
+        rotate: 45deg;
+        top: -4px;
+        left: 6px;
+        opacity: 100%;
+    }
+}
+
+.menuButtonLineBottomClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineBottomClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+.menuButtonLineBottomUnClick {
+    animation-duration: 1s;
+    animation-name: menuButtonLineBottomUnClick;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: 2px 2px;
+}
+
+@keyframes menuButtonLineBottomClick {
+    from {
+        rotate: -30deg;
+        opacity: 25%;
+        top: 4px;
+        left: 6px;
+    }
+    to {
+        rotate: -45deg;
+        top: 4px;
+        left: 6px;
+        opacity: 100%;
+    }
+}
+@keyframes menuButtonLineBottomUnClick {
+    to {
+        rotate: -30deg;
+        opacity: 25%;
+        top: 4px;
+        left: 6px;
+    }
+    from {
+        rotate: -45deg;
+        top: 4px;
+        left: 6px;
+        opacity: 100%;
+    }
+}
+
+.menuOverlayOpen {
+    transition: 1s;
+    left: 10px;
+}
+.menuOverlayClosed {
+    transition: 1s;
+    left: -400px;
+}
